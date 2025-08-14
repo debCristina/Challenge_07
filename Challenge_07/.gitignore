@@ -1,0 +1,80 @@
+# ==========================
+# Xcode
+# ==========================
+## Build e produtos derivados
+build/
+DerivedData/
+
+## Configurações de usuário
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Estado do workspace
+xcuserdata/
+
+## Schemes pessoais
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+
+## Configurações de projeto compartilhado geradas
+*.xcscmblueprint
+
+# ==========================
+# Swift / Swift Package Manager
+# ==========================
+.build/
+Packages/
+Package.resolved
+
+# ==========================
+# CocoaPods (se usar)
+# ==========================
+Pods/
+*.lock
+!Podfile
+!Podfile.lock
+
+# ==========================
+# Carthage (se usar)
+# ==========================
+Carthage/Build/
+
+# ==========================
+# Fastlane (se usar)
+# ==========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# ==========================
+# Arquivos do macOS
+# ==========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos temporários
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================
+# Swift Playgrounds
+# ==========================
+timeline.xctimeline
+playground.xcworkspace
+
+# ==========================
+# Arquivos de backup
+# ==========================
+*.swp
+*.swo
+*~
